@@ -1,0 +1,92 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    position: fixed;
+    width: 100vh;
+    background-color: #ff4821;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #8f8f8f;
+
+}
+
+nav ul {
+    display: inline-flex;
+}
+nav ul li{
+    padding: 1em;
+    list-style-type: none;
+}
+.nav-links{
+    color: #f8f8f8;
+    transition: 1s;
+}
+.nav-links:hover{
+    color: purple;
+}
+header h1 {
+    padding-top: 50px;
+    font-size: 200px;
+    background-color: #f8f8f8;
+}
+#html {
+    background-color: #ff4821;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+#html-picture{
+    float: right;
+}
+#css {
+    background-color: #f8f8f8;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.css-paragraph {
+    display: flex;
+    align-items: center;
+}
+#css3-picture{
+    width: 10em;
+    height: 10em;
+    float: right;
+}
+.paragraphs{
+    position: relative;
+    
+}
+.contact-form{
+    justify-content: flex-start;
+    background-color: #8f8f8f;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+form.form-example{
+    display: table;
+}
+div.form-example{
+    display: table-row;
+}
+label, input{
+    display: table-cell;
+    margin-bottom: 10px;
+}
+.my-footer{
+    background-color: #ff4821;
+    padding: 3em;
+}
+footer h5{
+    text-align: center;
+}
+/* 
+selector { declaration
+
+    property: value;
+    property: value;
+}
+*/
